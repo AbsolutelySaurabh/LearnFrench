@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.absolutelysaurabh.newlanguage">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Numbers"
+            android:label="@string/numbers" />
+        <activity
+            android:name=".FamilyMembers"
+            android:label="@string/familymembers" />
+        <activity
+            android:name=".Colors"
+            android:label="@string/colors" />
+        <activity
+            android:name=".Grocery"
+            android:label="@string/grocery" />
+        <activity
+            android:name=".Agriculture"
+            android:label="@string/agriculture" />
+        <activity android:name=".Phrases"></activity>
+    </application>
+
+</manifest>

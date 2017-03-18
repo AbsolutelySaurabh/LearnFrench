@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8E1"
+    tools:context="com.example.absolutelysaurabh.newlanguage.MainActivity">
+
+    <TextView
+        android:id="@+id/Numbers"
+        android:background="@color/category_numbers"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:onClick="NumbersClicked"
+        />
+
+    <TextView
+        android:id="@+id/Phrases"
+        android:background="@color/category_phrases"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:onClick="PhrasesClicked"
+        />
+
+    <TextView
+        android:id="@+id/FamilyMembers"
+        android:background="@color/category_familymembers"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Family Members"
+        android:onClick="FamilyMembersClicked"/>
+
+    <TextView
+        android:id="@+id/Colors"
+        android:background="@color/category_color"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colors"
+        android:onClick="ColorsClicked"
+        />
+
+    <TextView
+        android:id="@+id/Grocery"
+        android:background="@color/category_grocery"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grocery"
+        android:onClick="GroceryClicked"
+        />
+
+    <TextView
+        android:id="@+id/toast"
+        android:background="#00E5FF"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:onClick="ToastClicked"
+        />
+
+
+</LinearLayout>

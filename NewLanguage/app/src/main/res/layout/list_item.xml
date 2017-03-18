@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="75dp"
+    android:background="#B0BEC5"
+    >
+    <ImageView
+        android:layout_width="87dp"
+        android:layout_height="85dp"
+        android:padding="16dp"
+        android:id="@+id/image"
+
+        />
+    <LinearLayout
+        android:id="@+id/text_Container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        android:id="@+id/frenchTranstaion"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:textStyle="bold"
+        android:id="@+id/defaultTraslation"
+        android:paddingBottom="26dp"
+
+        />
+    </LinearLayout>
+
+</LinearLayout>
